@@ -9,7 +9,7 @@
 - Redux
 
 ## Live Link
-[helpfulsquirell] (https://helpfulsquirrel.vercel.app/)
+[helpful squirell](https://helpfulsquirrel.vercel.app/)
 
 ## Getting Started
 
