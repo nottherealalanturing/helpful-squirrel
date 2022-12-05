@@ -8,7 +8,8 @@
 - CSS
 - Redux
 
-## Live Demo
+## Live Link
+[helpfulsquirell] (https://helpfulsquirrel.vercel.app/)
 
 ## Getting Started
 
