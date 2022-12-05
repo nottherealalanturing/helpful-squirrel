@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from 'react-redux';
+import Editor from './components/editor';
+import SelectMenu from './components/selectMenu';
 
 function App() {
+  const selectMenuState = useSelector((state) => state.block.showSelectMenu);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1 className="Logo">Front-end developer test project</h1>
+      <p className="Intro">
+        Your goal is to make a page that looks exactly like this one and has the
+        ability to create H1 text simply by typing / then 1, then typing text,
+        and hitting enter
+      </p>
+      {selectMenuState && <SelectMenu />}
+
+      <Editor />
     </div>
   );
 }
