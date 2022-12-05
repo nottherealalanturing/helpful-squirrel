@@ -1,11 +1,12 @@
 # Helpful Squirrel.
 
-> Helpful squirrel is a clone of the notion.io editor.
+> The helpful squirrel has been mimicked by notion.io editor. Currently, the program only supports the h1 tag, but provisions have been made to allow for future expansions to handle additional tags.
 
 ## Built With
 
 - React
-- CSS.
+- CSS
+- Redux
 
 ## Live Demo
 
@@ -67,6 +68,9 @@ Start by:
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+- [Helpjuice](https://www.figma.com/file/tw8CNEl69jYeqPHxfBxf38/Helpjuice-Front-End-Developer-Test-Project?node-id=0%3A1&t=m9fLePcWUo8kmdcE-0)
+- notion.io
 
 ## 📝 License
 

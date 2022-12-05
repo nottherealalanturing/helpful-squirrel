@@ -1,13 +1,88 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
     monospace;
+}
+
+#editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.textblock {
+  width: 100%;
+}
+
+.lastitem {
+  order: 5;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.Logo {
+  margin: 2rem 0;
+  width: 100%;
+  color: #0f2e53;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.Intro {
+  padding: 0.25rem 1rem 0.25rem 0.5rem;
+  margin: 2rem 0;
+  border-left: 0.25rem solid #0f2e53;
+}
+
+.selectmenu {
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  width: 300px;
+  height: 300px;
+  margin-top: 2px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.selectmenutagslist {
+  list-style: none;
+  padding: 5px;
+}
+
+.selectmenutags {
+  background: #0f2e5325;
+  padding: 5px;
 }
