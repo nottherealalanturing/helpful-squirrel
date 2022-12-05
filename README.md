@@ -27,15 +27,11 @@ To get a local copy up and running follow these steps:
 
 Install packages with:
 
-```npm install
-
-```
+npm install
 
 Start server with:
 
-```npm start
-
-```
+npm start
 
 Then open a web page and go to [port 3000 on your local machine.](http://localhost:3000)
 
